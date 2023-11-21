@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <!-- fonte Poppins do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- arquivo principal de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- cabeçalho da página com id pra css -->
+    <header id="header">
+        <!-- container para deixar o conteúdo restrito e com largura máxima -->
+        <div class="container flex justify-between items-center">
+            <!-- logo -->
+            <div class="brand">
+                <img src="./img/barbershop-logo.png" alt="Logo">
+            </div>
+            <!-- menu -->
+            <div class="navbar">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- botões para login e cadastro -->
+            <div class="login">
+                <button class="button">Login</button>
+                <button class="button button-orange">Cadastro</button>
+            </div>
+        </div>
+    </header>
+    <!-- começa agora o conteúdo 'principal' da página -->
+    <main>
+        <!-- imagem de fundo -->
+        <div class="background"></div>
+        <!-- título e subtítulo da imagem de fundo -->
+        <div class="container">
+            <div class="hero">
+                <h1>O tratamento ideal para você é aqui!</h1>
+                <!-- strong para destaque -->
+                <h2>Uma pequena barbearia para <strong>grandes homens</strong></h2>
+            </div>
+        </div>
+
+        <section class="servicos"> 
+            <div class="container">
+                <h2>Serviços</h2>
+                <div class="grid">
+                    <div> 
+                        <h3>Corte de Cabelo e Barba</h3>
+                        <p>R$80,00</p>
+                    </div>
+                    <div> 
+                        <h3>Corte de Cabelo</h3>
+                        <p>R$40,00</p>
+                    </div>
+                    <div> 
+                        <h3>Sobrancelha</h3>
+                        <p>R$20,00</p>
+                    </div>
+                    <div> 
+                        <h3>Tratamento Anti-calvície</h3>
+                        <p>R$70,00</p>
+                    </div>
+                    <div> 
+                        <h3>Barba Completa</h3>
+                        <p>R$40,00</p>
+                    </div>
+                    <div> 
+                        <h3>Completão</h3>
+                        <p>R$160,00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quem-somos">
+            <div class="container flex">
+                <div class="row w-50 img-row">
+                    <img src="img/barbershop-materials.jpg" alt="BarberShop Materials" class="w-100">
+                </div>
+                <div class="row w-50">
+                    <h2 class="los-hermanos-title">LOS HERMANOS</h2>
+                    <p class="los-hermanos-text">O homem moderno também cuida da sua aparência e a barbearia Los Hermanos é o melhor lugar para fazer isso! Temos uma equipe com os melhores profissionais da cidade e condições especiais para você sair daqui de cabelo na régua! Estamos te esperando! </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container flex justify-between items-center">
+            <div class="row">
+                <img src="./img/barbershop-logo.png" alt="Logo">
+                <p>Em Frente a Estação Primavera</p>
+                <p>+55 (11) 98765-4321</p>
+            </div>
+            <div class="row">
+                <ul class="footer-menu">
+                    <li>Serviços</li>
+                    <li>Sobre Nós</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="footer-menu">
+                    <li>Cabelo</li>
+                    <li>Barba</li>
+                    <li>Tratamentos</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="line-footer"></div>
+        </div>
+    </footer>
+</body>
+</html>
